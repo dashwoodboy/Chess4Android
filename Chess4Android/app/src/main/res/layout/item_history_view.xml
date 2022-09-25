@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:background="@drawable/recycler_item"
+    android:gravity="center"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="24dp">
+
+    <TextView
+        android:id="@+id/puzzle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:text="@string/puzzle_day"
+        android:layout_marginEnd="16dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        tools:text="@tools:sample/date/mmddyy"
+        android:layout_marginEnd="16dp" />
+
+    <ImageView
+        android:id="@+id/completed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:src="@drawable/green_check_24"/>
+
+</LinearLayout>

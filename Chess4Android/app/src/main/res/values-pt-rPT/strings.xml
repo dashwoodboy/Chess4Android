@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chess4Android</string>
+    <string name="credit_content">Aplicação feita pelo grupo 21:\n47222 - Alexandre Luís\n47717 - Lourenço Vala\n47722 - David Lourenço</string>
+    <string name="credits_menu">credits_menu</string>
+    <string name="history_menu">history_menu</string>
+    <string name="credits_to_lichess">Obrigado à API do Lichess por providenciar puzzles diários.</string>
+    <string name="puzzle_button">Puzzle do dia</string>
+    <string name="pvp_button">Jogador vs Jogador</string>
+    <string name="won_puzzle">Concluiu o puzzle!</string>
+    <string name="lost_puzzle">Puzzle falhado. Tente de novo.</string>
+    <string name="puzzle_day">Puzzle do dia:</string>
+    <string name="internet_connection">Verifique a sua ligação à internet.</string>
+    <string name="play_puzzle">Jogar</string>
+    <string name="show_solution">Solução</string>
+    <string name="end_of_solution">Fim da solução.</string>
+    <string name="Error_challenger_fetch">Erro na ligação com o servidor</string>
+    <string name="error_challenger_fetch">Erro  na conecção com o servidor</string>
+    <string name="waiting_button_text">Aguarde</string>
+    <string name="create_button_text">Criar</string>
+    <string name="alertdialog_title_text">Aceita o desafio de %s?</string>
+    <string name="alertdialog_positive_text">Aceitar</string>
+    <string name="alertdialog_negative_text">Recusar</string>
+    <string name="edittext_name_hint_text">Nome</string>
+    <string name="edittext_msg_hint_text">Mensagem</string>
+    <string name="waiting_text">À espera de parceiro</string>
+    <string name="black_win_text">Pretas ganham por checkmate</string>
+    <string name="white_win_text">Brancas ganham por chechmate</string>
+    <string name="stalemate_text">Empate por afogamento</string>
+    <string name="local_text">Local</string>
+    <string name="online_text">Online</string>
+    <string name="auto_rotate_text">Girar Automaticamente</string>
+    <string name="draw_button_text">Empate</string>
+    <string name="resign_button_text">Desistir</string>
+    <string name="accept_draw_text">Sim</string>
+    <string name="decline_draw_text">Não</string>
+    <string name="propose_draw_text">Aceita Empate?</string>
+    <string name="draw_agreed_text">Empate concordado</string>
+    <string name="white_resigns_text">Branco desiste</string>
+    <string name="black_resigns_text">Preto desiste</string>
+    <string name="draw_text">Empate por peças insuficientes</string>
+</resources>

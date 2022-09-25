@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pt.isel.pdm.chess4android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".common.ChessApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_black_king"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_black_king"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat">
+        <activity
+            android:name=".onlinegame.game.OnlineGameActivity"
+            android:exported="true" />
+        <activity
+            android:name=".onlinegame.challenge.create.ChallengeCreateActivity"
+            android:exported="true" />
+        <activity
+            android:name=".onlinegame.challenge.list.ChallengesListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".localgame.LocalGameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".history.HistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".about.AboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".daily.DailyPuzzleActivity"
+            android:exported="true" />
+        <activity
+            android:name=".home.HomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
